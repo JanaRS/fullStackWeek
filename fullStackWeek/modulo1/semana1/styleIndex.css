@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(115, 115, 146);
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(67, 47, 65);
+    text-align: center;
+}
+
+.paragrafo {
+    color: rgb(42, 43, 40);
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 20px;
+}
+
+.icon {
+    text-align: center;
+}
+
