@@ -7,8 +7,10 @@
 :root {
     --bg-color-body: #08a4af;
     --bg-color-paragrafo: #8ebdb6;
+    --bg-color-footer: rgb(39, 134, 155);
 
     --ft-color-body: #04363c;
+    --ft-color-footer: rgb(11, 29, 41);
 }
 
 body {
@@ -21,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
+    top: 0;
     
     width: 100%;
     height: 70px;
@@ -30,10 +33,12 @@ body {
 nav {
     display: flex;
     width: 100%;
+    height: 70px;
     
     align-items: center; 
     position: fixed;
     justify-content: space-between;
+    background-color: #44a5c7;
 }
 
 #nav-img {
@@ -64,7 +69,10 @@ header {
     background-image: url(/modulo1/imagem/bg-h1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 100px;  
+    padding: 100px;
+    width: 100%;
+    margin-top: 70px;
+
 }
 
 h1 {
@@ -73,7 +81,6 @@ h1 {
     text-align: center;
     line-height: 2px;
     padding: 10px;
-    margin: 10px;
 }
 
 .paragrafo {
@@ -114,5 +121,13 @@ p {
 
 #seta {
     border-radius: 30px;
+}
+
+.footer {
+    background-color: var(--bg-color-footer);
+    color: var(--ft-color-footer);
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
 }
 
